@@ -2,6 +2,7 @@
 class ticket:
     def __init__(self):   
         self.ticket = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        
     currentTicket = {'Paid' : True, 'Unpaid' : False}
     pass
 
@@ -9,19 +10,23 @@ class ticket:
 #class for all things parking
 class parking:
     def __init__(self):
-        self.parkingSpaces = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        return self.parkingSpaces
+        self.spaces = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        return self.spaces
     pass
 
 
 class garage:
     def __init__(self):
-
-    def takeTicket(self):
+        pass
+    def takeTicket(self, ticket, spaces):
         #decrease the tickets available by 1
-        for ticket in range(len(self.ticket)):
-            
-        #decrease the amount of parkingSpaces available by 1
+        ticket = ticket()
+        return ()
+        for i in range(len(ticket)):
+            del ticket[0]
+            return f'Your ticket is ticket {ticket[0]}! Please park safely!'
+
+        #decrease the amount of spaces available by 1
         pass
 
     #should update currentTicket dictionary
