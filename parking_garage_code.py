@@ -70,3 +70,21 @@ class main:
             parking = parking()
             garage = garage()
             user_input = True
+
+# currentTicket { 1: { "paid": False}
+# }
+# once they pay it will look like
+
+# currentTicket { 1: { "paid": True}
+
+# and for every ticket/space taken it will update with the key (which is going to be our ticket number) and the value 
+# (that is going to be another dictionary with the key"paid" and the value of True or False)
+
+# once we add stuff it will look like this
+
+# currentTicket { 1:{"paid": False}, 2:{"paid": True}, 3:{"paid": False}}
+
+# CristinaGradinaruToday at 10:41 AM
+# so to access the value true or false we will need a function that does " if currentDict[int(choice)]["paid"] = True then print("Your ticked was 
+# paid! Have a nice day or something ") elif : currentDict[int(choice)]["paid"] = False then print("Your ticket was not paid. Please pay for your 
+# ticket." else: print("Oops wrong choice. Seems like this ticket is still available")
