@@ -1,6 +1,6 @@
 
 Emmanuel:Branch master
    
-Cristina:
+Cristina: did structure, functionality, dictionary
 
 
